@@ -1,11 +1,11 @@
 # Multi-temporal-RTS-mapping
 This repository contains data and codes used in manuscript "Domain Adaptive Semantic Segmentation of  Multi-annual Retrogressive Thaw Slumps"
-# TADA Model
+## TADA Model
 
 
  Generally, we implemented a DeepLab V3+ segmentation model with Gradient Reversal Layer and a domain discriminator, in order to achieve transfer learning across remote sensing samples from multiple years.
 
-## Quick Start
+### Quick Start
 
 For environment configuration, refer to file `env.yaml`
 
@@ -23,11 +23,11 @@ python train.py
 
 to begin training. For testing scripts, some related files are available upon request.
 
-## File Structure
+### File Structure
 
 The `datasets` folder should be placed outside this folder. During each time of training, our codes will create a folder outside this name `logs`, and create a sub-folder named with the time training starts, where weights, loss and accuracy plots are saved.
 
-### Pretrained Model
+#### Pretrained Model
 
 We adopted mobilenetv2 as the backbone. You can download it via https://pan.bnu.edu.cn/l/X1ns1x, and put it inside sub-folder `model_data`.
 
@@ -48,7 +48,7 @@ The multi-annual RTS
 - logs
 ```
 
-# Multi-temporal RTS ground truth
+## Multi-temporal RTS ground truth
 The multi-temporal RTS ground truth as well as corresponding non-RTS negative shapefile from 2019 to 2022 are released in
 
 https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Data/Ground-truth-data
