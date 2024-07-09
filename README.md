@@ -2,6 +2,7 @@
 This repository contains data and codes used in manuscript "Domain Adaptive Semantic Segmentation of  Multi-annual Retrogressive Thaw Slumps"
 # TADA Model
 
+
  Generally, we implemented a DeepLab V3+ segmentation model with Gradient Reversal Layer and a domain discriminator, in order to achieve transfer learning across remote sensing samples from multiple years.
 
 ## Quick Start
@@ -37,8 +38,8 @@ We adopted mobilenetv2 as the backbone. You can download it via https://pan.bnu.
 --- labels
 --- masks
 -- 2020
--- ...
-# Ground Truth data
+-- 
+ 
 The multi-annual RTS 
 - DANN RTS Segmentation
 -- model_data
@@ -46,3 +47,7 @@ The multi-annual RTS
 
 - logs
 ```
+
+# Multi-temporal RTS ground truth
+The multi-temporal RTS ground truth from 2019 to 2022 are released 
+https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Data/Ground-truth-data
