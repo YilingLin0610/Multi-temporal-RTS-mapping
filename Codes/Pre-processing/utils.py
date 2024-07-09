@@ -1,6 +1,6 @@
 
 """
-Randomly used functions to process TIFF file and shapefile
+Frequently used functions to process TIFF file and shapefile
 Author: Yiling Lin
 """
 import os
@@ -51,12 +51,12 @@ def writeTiff(im_data, im_geotrans, im_proj, path):
     elif len(im_data.shape) == 2:
         im_data = np.array([im_data])
         im_bands, im_height, im_width = im_data.shape
-    # 创建文件
+    # 鍒涘缓鏂囦欢
     driver = gdal.GetDriverByName("GTiff")
     dataset = driver.Create(path, int(im_width), int(im_height), int(im_bands), datatype)
     if (dataset != None):
-        dataset.SetGeoTransform(im_geotrans)  # 写入仿射变换参数
-        dataset.SetProjection(im_proj)  # 写入投影
+        dataset.SetGeoTransform(im_geotrans)  # 鍐欏叆浠垮皠鍙樻崲鍙傛暟
+        dataset.SetProjection(im_proj)  # 鍐欏叆鎶曞奖
     for i in range(im_bands):
         dataset.GetRasterBand(i + 1).WriteArray(im_data[i])
     del dataset
