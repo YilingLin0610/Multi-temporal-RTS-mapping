@@ -49,5 +49,8 @@ The multi-annual RTS
 ```
 
 # Multi-temporal RTS ground truth
-The multi-temporal RTS ground truth from 2019 to 2022 are released 
+The multi-temporal RTS ground truth as well as corresponding non-RTS negative shapefile from 2019 to 2022 are released in
+
 https://github.com/YilingLin0610/Multi-temporal-RTS-mapping/tree/main/Data/Ground-truth-data
+
+
