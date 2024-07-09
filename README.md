@@ -1,7 +1,6 @@
 # Multi-temporal-RTS-mapping
 This repository contains data and codes used in manuscript "Domain Adaptive Semantic Segmentation of  Multi-annual Retrogressive Thaw Slumps"
 # TADA MODEL
-# DANN RTS Segmentation
 
 This is the repo for out project **Domain Adaptive Semantic Segmentation of Multi-annual Retrogressive Thaw Slumps** (subject to change). Generally, we implemented a DeepLab V3+ segmentation model with Gradient Reversal Layer and a domain discriminator, in order to achieve transfer learning across remote sensing samples from multiple years.
 
