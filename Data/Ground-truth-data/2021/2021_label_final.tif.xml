@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="zh"><Esri><CreaDate>20230308</CreaDate><CreaTime>21021800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="d:\gis\desktop10.8\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\RasterCalculator" Date="20230308" Time="210218">RasterCalculator Con(IsNull("label_nodata.tif"),0,"label_nodata.tif") "F:\graduate-project\model improvement\shapefile_RTS\2021\label.tif"</Process></lineage></DataProperties></Esri></metadata>
